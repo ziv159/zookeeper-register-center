@@ -16,6 +16,7 @@ public class ProductCenterApplication {
 	@Value( "${spring.application.name}" )
 	private String name;
 
+	//辣椒水的
 	@GetMapping("/getInfo")
 	public String getServerPortAndName(){
 
